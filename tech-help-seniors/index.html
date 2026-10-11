@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tech Help for Seniors | Anna Bitters, Columbus, Ohio</title>
   <meta name="description" content="Patient, plain-spoken help with phones, tablets, computers, Wi-Fi, passwords, email, photos, and scam safety. In your home or by phone, in Franklin and Delaware Counties, Ohio.">
-  <meta name="theme-color" content="#FBF7F0">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="preload" href="fonts/pt-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/instrument-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
@@ -60,18 +62,20 @@
   <main id="main">
 
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="wrap">
+      <div class="wrap-wide">
+       <div class="hero-panel">
         <p class="eyebrow">Anna Bitters, The Tech Untangler</p>
         <h1 id="hero-title">I teach you to use the phone, tablet, and computer you already own, at your own pace.</h1>
         <p class="lead">For older adults in Franklin and Delaware Counties, Ohio, and the families who love them.</p>
         <a class="btn" href="#book">Book a Visit</a>
-        <svg class="untangle" viewBox="0 0 600 60" aria-hidden="true" focusable="false">
-          <path d="M4 34 C 30 4, 60 58, 84 28 S 120 2, 110 36 S 70 50, 96 20 S 150 50, 170 30 C 190 10, 210 44, 230 30 L 596 30" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+        <p class="hero-call">Rather talk first? Give me a call:<br>
+          <!-- PLACEHOLDER: phone number (same as the Book section) -->
+          <a href="tel:+10000000000">[Phone number placeholder]</a></p>
+       </div>
       </div>
     </section>
 
-    <section class="section" id="how" aria-labelledby="how-title">
+    <section class="section section-dark" id="how" aria-labelledby="how-title">
       <div class="wrap">
         <h2 id="how-title">How it works</h2>
         <ol class="steps">
@@ -91,12 +95,12 @@
       </div>
     </section>
 
-    <section class="section section-alt" id="pricing" aria-labelledby="pricing-title">
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
       <div class="wrap">
         <h2 id="pricing-title">Pricing</h2>
         <p>Simple prices. No surprises.</p>
         <div class="cards">
-          <article class="card" aria-labelledby="price-visit">
+          <article class="card card-light" aria-labelledby="price-visit">
             <h3 id="price-visit">In-home visit</h3>
             <p class="price">$300</p>
             <p class="price-note">About 2 hours, at your home</p>
@@ -107,7 +111,7 @@
             </ul>
             <a class="btn" href="#book">Book a Visit</a>
           </article>
-          <article class="card" aria-labelledby="price-phone">
+          <article class="card card-dark" aria-labelledby="price-phone">
             <h3 id="price-phone">Phone consultation</h3>
             <p class="price">$75</p>
             <p class="price-note">30 minutes, by phone</p>
@@ -116,13 +120,13 @@
               <li>Help from your favorite chair.</li>
               <li>A nice way to practice after a visit.</li>
             </ul>
-            <a class="btn" href="#book">Book a Phone Call</a>
+            <a class="btn btn-light" href="#book">Book a Phone Call</a>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="help" aria-labelledby="help-title">
+    <section class="section section-alt" id="help" aria-labelledby="help-title">
       <div class="wrap">
         <h2 id="help-title">What I can help with</h2>
         <p>It's not you. Technology is badly explained. If any of these sound familiar, you're in good company.</p>
@@ -137,11 +141,15 @@
           <li>"Someone called and said my computer has a virus."</li>
           <li>"My email is full of junk."</li>
         </ul>
-        <p>Don't see yours? Ask anyway. If it's on your device, we can work it out together.</p>
+        <div class="cta-box">
+          <h3>Don't see yours? Ask anyway.</h3>
+          <p>If it's on your device, we can work it out together.</p>
+          <a class="btn" href="#book">Book a Visit</a>
+        </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+    <section class="section" id="faq" aria-labelledby="faq-title">
       <div class="wrap">
         <h2 id="faq-title">Questions people ask</h2>
         <p>Tap a question to see the answer.</p>
@@ -195,7 +203,7 @@
       </div>
     </section>
 
-    <section class="section" id="about" aria-labelledby="about-title">
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
       <div class="wrap about">
         <!-- PLACEHOLDER: replace images/anna-placeholder.svg with a real photo of Anna -->
         <img class="about-photo" src="images/anna-placeholder.svg" alt="Anna Bitters" width="320" height="380">
@@ -221,11 +229,11 @@
       </div>
     </section>
 
-    <section class="section section-alt" id="book" aria-labelledby="book-title">
+    <section class="section section-dark" id="book" aria-labelledby="book-title">
       <div class="wrap">
         <h2 id="book-title">Book a visit</h2>
         <p>The easiest way is online. Pick a day and time that works for you.</p>
-        <a class="btn" href="https://calendly.com/annabitters/connect" target="_blank" rel="noopener">Book a Visit Online <span class="btn-note">(opens a new tab)</span></a>
+        <a class="btn btn-light" href="https://calendly.com/annabitters/connect" target="_blank" rel="noopener">Book a Visit Online <span class="btn-note">(opens a new tab)</span></a>
         <h3 class="book-sub">Rather not book online?</h3>
         <p>That's fine. Call or email me and we'll find a time together.</p>
         <!-- PLACEHOLDER: phone and email. Update both the visible text and the href. -->

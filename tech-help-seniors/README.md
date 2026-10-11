@@ -6,7 +6,7 @@ A one-page static site for Anna Bitters, The Tech Untangler. Plain HTML and CSS,
 
 Search `index.html` for `PLACEHOLDER` to find each one.
 
-1. **Phone number** (Book section). Change the visible text and the `href="tel:+10000000000"`.
+1. **Phone number** (two places: the top panel and the Book section). Change the visible text and the `href="tel:+10000000000"` in both.
 2. **Email address** (Book section). Change the visible text and the `href="mailto:you@example.com"`.
 3. **Photo of Anna** (About section). Replace `images/anna-placeholder.svg` with a real photo, for example `images/anna.jpg`, and update the `src`. Keep the size roughly 320 x 380 or any portrait shape. Update the `alt` text if you want it more descriptive.
 4. **Testimonial** (under About). Replace the quote and the "[Client first name, town]" line with a real quote, used with permission.
@@ -15,6 +15,10 @@ Search `index.html` for `PLACEHOLDER` to find each one.
 Also worth a read before launch: the FAQ answer about passwords and privacy, so it matches exactly how you work.
 
 Optional: once you have a phone number and web address, add `"telephone"` and `"url"` to the LocalBusiness schema at the top of `index.html`.
+
+## Fonts
+
+PT Serif (headings) and Instrument Sans (body) are self-hosted in `fonts/`. Both are free under the SIL Open Font License; the license files are in the same folder.
 
 ## Preview locally
 
